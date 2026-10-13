@@ -83,10 +83,10 @@ footer{background:#02130f;padding:28px 18px;text-align:center;color:#8ca59e;font
       <p>40 quantity • Free home delivery in Vizag.</p>
       <button class="btn primary" onclick="addToCart('pkg3499')">🛒 Add ₹3499 Package</button>
     </div></article>
-    <article class="package"><img src="assets/family-package-4499.jpg" alt="₹4499 Family Package"><div class="package-body">
-      <div class="package-price"><div><div class="old">₹8999</div><div class="offerprice">₹4499</div></div><span class="tag">40 VARIETIES</span></div>
+    <article class="package"><img src="assets/family-package-4999.jpg" alt="₹4999 Family Package"><div class="package-body">
+      <div class="package-price"><div><div class="old">₹8999</div><div class="offerprice">₹4999</div></div><span class="tag">40 VARIETIES</span></div>
       <p>51 quantity • Free home delivery in Vizag.</p>
-      <button class="btn primary" onclick="addToCart('pkg4499')">🛒 Add ₹4499 Package</button>
+      <button class="btn primary" onclick="addToCart('pkg4999')">🛒 Add ₹4499 Package</button>
     </div></article>
   </div>
 </div></section>
@@ -195,7 +195,7 @@ const products = [
 ];
 const special = {
  pkg3499:{id:'pkg3499',name:'Family Package ₹3499',cat:'Family Package',icon:'🎁',unit:'package',price:3499},
- pkg4499:{id:'pkg4499',name:'Family Package ₹4499',cat:'Family Package',icon:'🎁',unit:'package',price:4499}
+ pkg4499:{id:'pkg4499',name:'Family Package ₹4499',cat:'Family Package',icon:'🎁',unit:'package',price:499}
 };
 let allProducts = [...products,...Object.values(special)];
 let cart = JSON.parse(localStorage.getItem('shivakshiCart')||'{}');
